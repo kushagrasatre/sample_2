@@ -47,7 +47,7 @@
 <div class="container">
   <!-- search box -->
   <div class="row">
-      <div class="col-md-12">
+      <!-- <div class="col-md-12">
       <h2 style="text-align: center;">DATA TABLE</h2>
           <div id="custom-search-input"  style="margin-bottom: 20px;">
               <div class="input-group col-md-12">
@@ -59,13 +59,14 @@
                   </span>
               </div>
           </div>
-      </div>
+      </div> -->
 </div>
 
 <!-- content part -->
   <div class="row circle-records-container">
 <div class="col-6 circle-container">
-<div class="circle" *ngFor="let c of searchData let i = index" (click)="dataDisplay(i,$event)" [id]="i">{{c.name}} </div>
+<!-- <div class="circle" *ngFor="let c of searchData let i = index" (click)="dataDisplay(i,$event)" [id]="i">{{c.name}} </div> -->
+<app-diagram [model]="model" (click)='nodeClicked($event)'></app-diagram>
 </div>
 <div class="col-6 records-container">
   <div class= "col-12">

@@ -33,15 +33,7 @@
 
 
 
-.circle{width:50px;height:50px;font-size:20px;
-    color:#fff;text-align:center;
-    align-self: center;
-    line-height:0;border-radius:50%;background:#09f;
-    margin-bottom:10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 
 .record-container {
     display: inline-block;
@@ -83,14 +75,7 @@
     width: 100%;
     background:red;;
   }
-  .circle-container {
-    display: flex;
-    justify-content: space-around;
-  }
-  .circle-records-container {
-    margin-top:20px;
-    min-height: 200px;
-  }
+  
   .records-container {
     align-items: center;
     display: flex;

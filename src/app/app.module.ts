@@ -4,6 +4,7 @@ import { FormsModule } from "@angular/forms";
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { DiagramComponent } from './diagram/diagram.component';
 import { DataSearchComponent } from './data-search/data-search.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FilterPipePipe } from './filter-pipe.pipe';
@@ -12,7 +13,8 @@ import { FilterPipePipe } from './filter-pipe.pipe';
   declarations: [
     AppComponent,
     DataSearchComponent,
-    FilterPipePipe
+    FilterPipePipe,
+    DiagramComponent
   ],
   imports: [
     BrowserModule,
